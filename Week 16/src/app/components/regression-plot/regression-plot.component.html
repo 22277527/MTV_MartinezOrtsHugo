@@ -1,0 +1,7 @@
+<mat-card *ngIf="data.length">
+  <canvas baseChart
+          [data]="chartData"
+          [options]="chartOptions"
+          chartType="scatter">
+  </canvas>
+</mat-card>

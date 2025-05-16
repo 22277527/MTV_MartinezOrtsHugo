@@ -1,0 +1,9 @@
+<mat-card *ngIf="result">
+    <mat-card-title>Resultados de la regresión</mat-card-title>
+    <mat-card-content>
+      <p>Pendiente: {{ result.slope }}</p>
+      <p>Intersección: {{ result.intercept }}</p>
+      <p>R²: {{ result.rSquared }}</p>
+    </mat-card-content>
+  </mat-card>
+  
